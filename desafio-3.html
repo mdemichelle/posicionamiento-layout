@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 3</title>
+  </head>
+  <style media="screen" type="text/css">
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    section {
+      margin:5px;
+    }
+    .bandera {
+      box-sizing: border-box;
+      width: 20%;
+      display: inline-block;
+      height: 200px;
+      margin-right: 20px;
+      
+    }
+    .box-españa {
+      box-sizing: border-box;
+      background-color: red;
+      height: 80%;
+      padding-top: 45px;
+      border: 1px solid #808080;
+    }
+
+    .franja-españa{
+        background-color: yellow;
+        height:50%;
+        padding-bottom: 10px;
+    }
+    .box-dinamarca {
+      box-sizing: border-box;
+      background-color: red;
+      height: 80%;
+      border: 1px solid #808080;
+      position: relative;
+    }
+
+    .franja-vert-dinamarca{
+    position: absolute;
+    background-color: white;
+    width: 14px;
+    height: 100%;
+    left: 26%;
+    }
+
+    .franja-hor-dinamarca{
+        position:absolute;
+        background-color: white;
+        width: 100%;
+        height: 14px;
+        top: 46%;
+
+    }
+    .box-eArabes{
+    box-sizing: border-box;
+    background-color: red;
+    height: 80%;
+    position: relative;
+    border: 1px solid #808080;
+    }
+
+    .franja1-ea{
+    position: absolute;
+    background-color: green;
+    height: 33%;
+    width: 78%;
+    top: auto;
+    left: 22%;
+    }
+
+    .franja2-ea{
+    position: absolute;
+    background-color: white;
+    height: 34%;
+    width: 78%;
+    top:33%;
+    left: 22%;
+    }
+
+    .franja3-ea{
+    position: absolute;
+    background-color: black;
+    height: 33.5%;
+    width: 78%;
+    top:67%;
+    left: 22%;
+    }
+    .box-japon{
+    background-color: white;
+    border: 1px solid #808080;
+    height: 80%;
+    position: relative;
+    }
+
+    .circle-japan{
+    position: absolute;
+    border-radius: 100%;
+    background-color: red;
+    height: 50%;
+    width: 30%;
+    top: 24%;
+    left: 34%;
+    }
+    p {
+      padding-left: 10px;
+    }
+  </style>
+  <body>
+    <section class="section">
+      <div class="bandera">
+        <div class="box-españa">
+            <div class="franja-españa"></div>
+        </div>
+        <p>España</p>
+      </div>
+      <div class="bandera">
+        <div class="box-dinamarca">
+            <div class="franja-vert-dinamarca"></div>
+            <div class="franja-hor-dinamarca"></div>
+        </div>
+        <p>Dinamarca</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="bandera">
+        <div class="box-eArabes">
+            <div class="franja1-ea"></div>
+            <div class="franja2-ea"></div>
+            <div class="franja3-ea"></div>
+            <div class="franja4-ea"></div>
+        </div>
+        <p>Emiratos Árabes</p>
+      </div>
+      <div class="bandera">
+        <div class="box-japon">
+            <div class="circle-japan"></div>
+        </div>
+        <p>Japón</p>
+      </div>
+    </section>
+  </body>
+</html>
